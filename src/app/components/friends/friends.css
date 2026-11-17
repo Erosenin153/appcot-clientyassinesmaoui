@@ -1,0 +1,43 @@
+.card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  min-height: 145px;
+  padding: 1rem 2rem;
+  border-left: 4px solid #27b47a;
+  border-radius: 0.6rem;
+  box-shadow: 0 3px 8px #00000012;
+}
+
+.card h2 {
+  margin: 0 0 0.65rem;
+  font-size: 1.2rem;
+}
+
+.icon {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border-radius: 50%;
+  background: #e7f8ef;
+  color: #246c56;
+  font-size: 1.5rem;
+}
+
+.friend-inputs {
+  display: flex;
+}
+
+.friend-inputs input {
+  width: 105px;
+  height: 18px;
+  border: 1px solid #aaa;
+  font: 0.65rem Arial, sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1rem;
+  font-size: 0.75rem;
+}

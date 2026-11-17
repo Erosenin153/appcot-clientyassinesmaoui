@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  min-height: 125px;
+  padding: 1rem 2rem;
+  border-left: 4px solid #f3a714;
+  border-radius: 0.6rem;
+  box-shadow: 0 3px 8px #00000012;
+}
+
+.card h2 {
+  margin: 0 0 0.65rem;
+  font-size: 1.2rem;
+}
+
+.card p {
+  margin: 0 0 0.65rem;
+  font-size: 0.78rem;
+}
+
+.icon {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border-radius: 50%;
+  background: #fff3d4;
+  color: #f0a000;
+  font-size: 1.4rem;
+}
+
+button {
+  font: 0.65rem Arial, sans-serif;
+}
+
+.notification-list {
+  margin: 0.75rem 0 0;
+  padding-left: 1.1rem;
+  font: 0.75rem Arial, sans-serif;
+}
+
+.notification-list li {
+  margin: 0.35rem 0;
+}

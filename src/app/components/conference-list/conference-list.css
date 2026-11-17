@@ -1,0 +1,84 @@
+.conference-list {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+}
+
+.conference-list h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.35rem;
+}
+
+.conference-intro {
+  margin: 0 0 1rem;
+  color: #788493;
+  font-size: 0.8rem;
+}
+
+input {
+  width: 100%;
+  max-width: 530px;
+  margin-bottom: 1rem;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.4rem;
+  font: italic 0.8rem Georgia, 'Times New Roman', serif;
+}
+
+.conference-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.conference-card {
+  min-height: 218px;
+  padding: 1rem 1.1rem;
+  border: 1px solid #dbe3eb;
+  border-radius: 0.65rem;
+  background: #f7fafd;
+}
+
+.conference-card h3 {
+  min-height: 42px;
+  margin: 0 0 0.7rem;
+  color: #1d416b;
+  font-size: 1rem;
+  overflow-wrap: anywhere;
+}
+
+.conference-card p {
+  margin: 0.65rem 0;
+  color: #101820;
+  font-size: 0.78rem;
+}
+
+button {
+  margin-top: 0.25rem;
+  padding: 0.55rem 0.95rem;
+  border: none;
+  border-radius: 0.4rem;
+  color: #ffffff;
+  font: bold 0.75rem Arial, sans-serif;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.92;
+}
+
+.btn-available {
+  background-color: #16a34a;
+}
+
+.btn-limited {
+  background-color: #f59e0b;
+}
+
+.btn-full {
+  background-color: #dc2626;
+}
+
+.info {
+  margin-top: 0.6rem;
+}
